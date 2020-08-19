@@ -1,25 +1,32 @@
 html {
 
+padding: 5px;
+
+}
+
+h1 {
+
+    font-size: 40px;
 
 }
 
 button {
 
-
+margin: 10px;
 
 
 }
 
 button:hover {
 
-
+background-color: grey;
 
 }
 
 body {
 
 position:absolute;
-background-color:grey;
+background-color:lightgrey;
 
 }
 
