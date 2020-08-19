@@ -1,0 +1,54 @@
+html {
+
+
+}
+
+button {
+
+
+
+
+}
+
+button:hover {
+
+
+
+}
+
+body {
+
+position:absolute;
+background-color:grey;
+
+}
+
+.calculator {
+
+border:1px;
+border-radius:10px;
+position: absolute;
+
+
+
+}
+
+.calculator-screen {
+
+
+
+}
+
+.calculator-keys {
+
+
+}
+
+.operator {
+
+
+
+
+}
+
+
