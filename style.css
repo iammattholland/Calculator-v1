@@ -1,85 +1,66 @@
 html {
-    padding: 5px;
-    margin: auto;
-    box-sizing: border-box;
     font-size: 100%;
-
-
 }
 
 h1 {
-
-    font: Sacramento;
-    font-size: 40px;
+    font-size: 50px;
     text-align:center;
-    top: 50%;
-
+    font-family: 'Sacramento'
 }
 
 h2 {
-
     text-align:center;
-    top: 50%;
-
+    font-family: 'Sacramento'
 }
 
 button {
-
-    padding: 25px;
+    padding: 15px;
     border-radius: 5px;
     border-color: grey;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-
 
 button:hover {
     background-color: #e2f8c5;
-
 }
 
-
 body {
-
     background-color: white;
-
 }
 
 .calculator {
     border: 3px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
     width: auto;
-    padding-right: 10px;
+    padding-right: 15px;
     padding-left: 10px;
     padding-top: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-
+    margin-bottom:50px;
 
 }
 
 .calculator-screen {
-
     width: 100%;
     font-size: 5rem;
-    border: none;
     border-radius: 5px;
     background-color: #252525;
     color: #fff;
     text-align: right;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 5px;
     padding-top: 5px;
-
 }
 
 .calculator-keys {
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     padding: 20px;
-
 }
 
 .equal-sign {
@@ -88,16 +69,13 @@ body {
     color: #fff;
     height: 100%;
     grid-area: 2 / 4 / 6 / 5;
-  }
-
+}
 
 .all-clear {
     background-color: #f0595f;
     border-color: #b0353a;
     color: #fff;
-
-  }
-
+}
 
 .all-clear:hover {
     background-color: #f17377;
@@ -105,12 +83,9 @@ body {
 
 .operator {
     color: green;
-
-
+    font-size: 2rem;
 }
 
 .container {
-  
 display: block;
-
 }
