@@ -15,28 +15,28 @@
 
 <div class="calculator container">
 
-    <input type="Text" class="calculator-screen" value="0" disabled>
+    <input type="Text" id="calculator-screen" class="calculator-screen" value="0" disabled>
 
     <div class="calculator-keys">
 
-        <button type="button" class="operator" value="+" onclick="calc('+')">+</button>
+        <button type="button" class="operator" value="+">+</button>
         <button type="button" class="operator" value="-">-</button>
         <button type="button" class="operator" value="*">&times;</button>
         <button type="button" class="operator" value="/">&divide;</button>
 
-        <button type="button" value="7"">7</button>
-        <button type="button" value="8">8</button>
-        <button type="button" value="9">9</button>
+        <button type="button" value="7" onclick="press(value)">7</button>
+        <button type="button" value="8" onclick="press(value)">8</button>
+        <button type="button" value="9" onclick="press(value)">9</button>
 
-        <button type="button" value="4">4</button>
-        <button type="button" value="5">5</button>
-        <button type="button" value="6">6</button>
+        <button type="button" value="4" onclick="press(value)">4</button>
+        <button type="button" value="5" onclick="press(value)">5</button>
+        <button type="button" value="6" onclick="press(value)">6</button>
 
-        <button type="button" value="1">1</button>
-        <button type="button" value="2">2</button>
-        <button type="button" value="3">3</button>
+        <button type="button" value="1" onclick="press(value)">1</button>
+        <button type="button" value="2" onclick="press(value)">2</button>
+        <button type="button" value="3" onclick="press(value)">3</button>
 
-        <button type="button" value="0">0</button>
+        <button type="button" value="0" onclick="press(value)">0</button>
         <button type="button" class="decimal function" value=".">.</button>
         <button type="button" class="all-clear function" value="all-clear">AC</button>
 
