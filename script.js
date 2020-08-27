@@ -1,8 +1,12 @@
 //Calculator Javascript
 
-function calc(press) {
 
+//Does the calculation
+function calc(press) {
     var calcScreen = press;
+
+    
+
 
 }
 
@@ -14,18 +18,17 @@ function press(key) {
 }
 
 
-
-function clear() {
-
-    var calcScreen = 0;
-    var total = 0;
+//Clears the screen and calculation
+function clearScreen(key) {
+    var calcScreen = document.getElementById("calculator-screen");
+    calcScreen.value = key;
 
 }
 
 
-
+//Returns the calculation
 function equals() {
-
-return total;
+    var totalCalc=0;
+    return totalClac;
 
 }
