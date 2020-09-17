@@ -1,3 +1,33 @@
+function multiply(){
+
+  var firstNum = document.getElementById("firstNum").value;
+
+  var secondNum = document.getElementById("secondNum").value;
+
+  var multiplyResult = firstNum*secondNum;
+
+  var result = document.getElementById("result");
+
+  result.value=multiplyResult;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Calculator Javascript
 
 /*
